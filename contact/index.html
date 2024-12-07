@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="shortcut icon" href="../i/me.png">
+<title>Porter's Website: Contact</title></head><body>
+
+<header>
+	<h1><a id="nav-btn">&#9776;</a>
+	<a href="..">Get In Contact</a>
+	<i>Porter's Website</i></h1>
+</header>
+
+<nav id="menu">
+	<a href=".." class="btn">Home</a>
+	<a href="../projects" class="btn">Projects</a>
+	<a href="../classes" class="btn">Classes</a>
+	<a href="" class="btn">Contact</a>
+	<a href="../template" class="btn">Template</a>
+	<a href="http://github.com/4stc/porter" class="btn">Source</a>
+	<i>Porter / Contact</i>
+</nav>
+
+<main>
+	<h2>Message Me</h2>
+	<p>I usually respond to messages within a few days.</p>
+	<form class="grid">
+		<fieldset>
+				<legend>Your Info</legend>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name">
+				<h3>Optional:</h3>
+				<label for="chk-mail"><input type="checkbox" name="contact" id="chk-mail">
+				E-Mail:</label>
+				<input type="text" name="contact" id="mail" style="display:none">
+				<label for="chk-phone"><input type="checkbox" name="contact" id="chk-phone">
+				Phone:</label>
+				<input type="text" name="contact" id="phone" style="display:none">
+				<label for="chk-website"><input type="checkbox" name="contact" id="chk-website">
+				Website:</label>
+				<input type="text" name="contact" id="website" style="display:none" value="http://">
+		</fieldset>
+		<fieldset>
+				<legend>Your Message</legend>
+				<label for="msg">Message:</label>
+				<textarea name="msg" id="msg" rows="6">
+				</textarea>
+		</fieldset>
+		<input type="reset" class="btn" value="Clear" onclick="form_clear()">
+		<input type="submit" id="submit" class="btn" value="Send">
+	</form>
+</main>
+
+<footer>
+	<p>Made by Porter Swanstrom |
+	<a href="../i/contact_mobile.png" target="_blank">Mobile Wireframe</a> |
+	<a href="../i/contact_desktop.png" target="_blank">Desktop Wireframe</a>
+	</p>
+</footer>
+
+<script src="../js/main.js"></script>
+</body></html>

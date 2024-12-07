@@ -1,0 +1,89 @@
+html{
+	background-color: #000000;
+	background-image: url("../i/bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #EEBB99;
+}
+
+body{
+	margin: auto;
+	width: 70%;
+}
+
+h1{
+	margin: .5em;
+}
+
+p{
+	font-size: .85em;
+}
+
+a{
+	color: #AABBAA;
+	text-decoration: none;
+}
+
+hr{
+	color: #AA9988;
+}
+
+img{
+	width: 50%;
+	padding-left: 22%;
+
+}
+
+header{
+	width: 75%;
+	text-align: center;
+	font-size: .9em;
+}
+header i{
+	font-size: .6em;
+	font-weight: normal;
+}
+
+nav{
+	color: #998877;
+}
+nav a{
+	font-size: 1.03em;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+nav i{
+	font-size: .85em;
+	color: #EECC99;
+	padding-right: 1%;
+	float: right;
+}
+
+main{
+	padding-top: 3%;
+}
+
+.col{
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	overflow-x: hidden;
+	z-index: 1;
+}
+#left{
+	left: 0;
+	padding-left: 18%;
+}
+#right{
+	right: 0;
+	padding-right: 18%;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 70%;
+	font-size: .8em;
+	color: #EECC99;
+	text-align: center;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="shortcut icon" href="../i/fav.png">
+<title>Bike Mastery: Your Order</title></head><body>
+
+<header>
+	<h1>Your Order
+	<i>Bike Mastery</i></h1>
+</header>
+
+<nav>
+	<a href=".." class="btn">Home</a>
+	<a href="../guides" class="btn">Guides</a>
+	<a href="../parts" class="btn">Parts</a>
+	<a href="" class="btn">Order</a>
+	<a href="../template" class="btn">Template</a>
+	<a href="http://github.com/4stc/bike_mastery" class="btn">Source</a>
+	<i>Bike Mastery / Order</i>
+</nav>
+
+<main>
+	<h2>Place an Order</h2>
+	<p>We ship directly to you within 3 to 5 business days!</p>
+	<form class="grid">
+		<fieldset>
+				<legend>Your Info</legend>
+				<label for="name">Full Name:</label>
+				<input type="text" name="name" id="name">
+				<label for="name">Address:</label>
+				<input type="text" name="addr" id="addr">
+				<label for="mail">E-Mail:</label>
+				<input type="text" name="mail" id="mail">
+				<label for="tel">Phone:</label>
+				<input type="tel" name="tel" id="tel">
+				<label><br>Payment Method:</label>
+				<label for="card"><input type="radio" name="payment"
+					id="card" value="Card">
+				Card</label>
+				<label for="check"><input type="radio" name="payment"
+					id="check" value="Check">
+				Check</label>
+				<label for="gift"><input type="radio" name="payment"
+					id="gift" value="Gift Card">
+				Gift Card</label>
+		</fieldset>
+		<fieldset>
+				<legend>Select Parts</legend>
+				<label for="item1"><input type="checkbox" name="parts"
+					id="item1">
+				Wheels (ID #1)</label>
+				<label for="item2"><input type="checkbox" name="parts"
+					id="item2">
+				Tires (ID #2)</label>
+				<label for="item3"><input type="checkbox" name="parts"
+					id="item3">
+				Seat (ID #3)</label>
+				<label for="item4"><input type="checkbox" name="parts"
+					id="item4">
+				Pedals (ID #4)</label>
+				<label for="item5"><input type="checkbox" name="parts"
+					id="item5">
+				Wheels (ID #5)</label>
+				<label for="item6"><input type="checkbox" name="parts"
+					id="item6">
+				Tires (ID #6)</label>
+				<label for="item7"><input type="checkbox" name="parts"
+					id="item7">
+				Handlebar (ID #7)</label>
+				<label for="item8"><input type="checkbox" name="parts"
+					id="item8">
+				Handlebar Grips (ID #8)</label>
+				<label for="req">Any Requests?</label>
+				<textarea name="req" id="req" rows="6">
+				</textarea>
+		</fieldset>
+		<input type="reset" class="btn" value="Clear">
+		<input type="submit" id="submit" class="btn" value="Send">
+	</form>
+</main>
+
+<footer>
+	<p>Made by Porter Swanstrom |
+	<a href="../i/order_mobile.png" target="_blank">Mobile Wireframe</a> |
+	<a href="../i/order_desktop.png" target="_blank">Desktop Wireframe</a>
+	</p>
+</footer>
+
+</body></html>
